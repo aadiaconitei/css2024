@@ -4,7 +4,8 @@ h2 {
   text-align: center;
 }
 
-html, body {
+html,
+body {
   margin: 0;
   height: 100%;
 }
@@ -19,10 +20,10 @@ html, body {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  background-color: #00BAF0;
+  background: #00baf0;
   background: linear-gradient(to left, #f46b45, #eea849);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  color: #FFF;
+  color: #fff;
   height: 50px;
   padding: 1em;
 }

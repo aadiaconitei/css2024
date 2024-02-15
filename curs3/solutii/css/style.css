@@ -89,10 +89,11 @@ main {
     transform: translate(0, 0) rotate(0deg) scale(1);
   }
   20% {
-    transform: translate(50px, 0) rotate(0deg) scale(1);
+    color: rgb(120, 24, 24);
+    transform: translate(50px, 0) rotate(90deg) scale(0.5);
   }
   25% {
-    transform: translate(50px, 50px) rotate(0deg) scale(1);
+    transform: translate(50px, 50px) rotate(90deg) scale(1);
   }
   40% {
     transform: translate(150px, 50px) rotate(0deg) scale(1);
