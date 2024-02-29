@@ -18,10 +18,11 @@
     <canvas id="myCanvas" width="300" height="300" style="background-color:green">
     </canvas>
     <h1>Cu JavaScript</h1>
-    <canvas  id="myCanvas2" width="300" height="300"></canvas>
+    <canvas id="myCanvas2" width="300" height="300"></canvas>
     <script>
         const canvas = document.getElementById('myCanvas2');
         const ctx = canvas.getContext('2d');
+        console.log(ctx);
         ctx.fillStyle = 'green';
         ctx.fillRect(0, 0, 300, 300);
     </script>

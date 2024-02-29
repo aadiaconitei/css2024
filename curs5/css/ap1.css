@@ -85,7 +85,7 @@ p {
 }
 
 .box-rotate-top:hover {
-  transform: translate3d(0, 0, -100px) rotate3d(1, 0, 0, -90deg);
+  transform: translate3d(0, 0, -100px) rotate3d(1, 0, 0, -360deg);
 }
 
 .box-rotate-bottom:hover {
@@ -112,5 +112,5 @@ p {
 }
 
 .box-rotate-gyro:hover {
-  transform: translate3d(0, 0, -100px) rotate3d(1, 1, 0, -180deg);
+  transform: translate3d(0, 0, -100px) rotate3d(1,  1, 0, -180deg);
 }
